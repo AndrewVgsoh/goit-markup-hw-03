@@ -1,0 +1,59 @@
+body {
+    font-family: Roboto;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+header {
+    background-color:#FFFFFF ;
+}
+.site-logo {
+    color:#000000 ;
+}
+.logo-part {
+    color:#2196F3;
+}
+.site-nav {
+    color: #212121;
+}
+.site-nav:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
+.contacts {
+    color: #757575;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+
+}
+.button {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.features-title {
+    color: #212121;
+}
+.features-text {
+    color: #757575;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team-post {
+    color: #757575;
+}
+.adress {
+    color: #FFFFFF;
+}
+footer {
+    background-color: #2F303A;
+}
