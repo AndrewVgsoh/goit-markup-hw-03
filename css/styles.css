@@ -206,7 +206,6 @@ main {
 }
 .works {
   display: flex;
-  width: 1700px;
   padding: 0;
   margin: 0;
 }
