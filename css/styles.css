@@ -17,6 +17,9 @@ html {
 *::before {
   box-sizing: inherit;
 }
+.img {
+  display: block;
+}
 body {
   color: var(--title-text-color);
 }
