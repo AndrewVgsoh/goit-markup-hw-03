@@ -17,7 +17,7 @@ html {
 *::before {
   box-sizing: inherit;
 }
-.img {
+img {
   display: block;
 }
 body {
