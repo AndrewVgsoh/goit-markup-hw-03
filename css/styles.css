@@ -82,7 +82,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
+
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -93,6 +93,7 @@ header {
   margin: 0;
   padding: 0;
   margin-left: 93px;
+  gap: 40px;
 }
 .ul-nav li {
   margin-right: 50px;
@@ -137,8 +138,7 @@ main {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
