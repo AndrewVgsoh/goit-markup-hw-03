@@ -70,6 +70,7 @@ header {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 76px
 }
 .logo-part {
   color: var(--second-logo-color);
@@ -81,6 +82,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  
 }
 .site-nav:hover,
 .site-nav:focus {
@@ -134,7 +136,7 @@ main {
   padding-top: 200px;
 }
 .container {
-  width: 1200px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
