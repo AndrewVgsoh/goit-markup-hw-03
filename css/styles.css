@@ -177,7 +177,10 @@ main {
 }
 
 .features {
-  padding-top: 94px;
+  padding: 120px 0
+}
+.visually-hidden {
+  display: none;
 }
 .features-title {
   color: var(--title-text-color);
