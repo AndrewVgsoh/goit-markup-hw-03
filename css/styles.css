@@ -270,11 +270,7 @@ width: calc((100% - 72px) / 4);
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   }
-  .team-ul h3 {
-    margin: 0;
-    margin-bottom: 10px;
-    padding-top: 30px;
-  }
+
   .team-ul p {
     padding-bottom: 30px;
   }
