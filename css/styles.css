@@ -263,7 +263,6 @@ width: calc((100% - 72px) / 4);
 }
 .team-div {
   padding: 32px 16px;
-  
 }
 .team-ul {
   border-bottom-left-radius: 4px;
@@ -287,6 +286,7 @@ width: calc((100% - 72px) / 4);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin-bottom: 8px;
 }
 .team-post {
   color: var(--primary-text-color);
@@ -298,6 +298,7 @@ width: calc((100% - 72px) / 4);
 footer {
   background-color: #2f303a;
   align-items: flex-start;
+  padding: 100px 0;
 }
 .container-footer {
   width: 1200px;
@@ -318,6 +319,9 @@ address {
 }
 .container-address {
   margin-top: 28px;
+}
+.footer {
+  
 }
 .footer-item {
   margin-top: 12px;
