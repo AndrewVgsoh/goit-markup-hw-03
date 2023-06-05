@@ -91,7 +91,7 @@ header {
 .ul-nav {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 24px 0;
   margin-left: 93px;
   gap: 40px;
 }
