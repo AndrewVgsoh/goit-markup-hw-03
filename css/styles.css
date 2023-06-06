@@ -348,7 +348,7 @@ padding-top: 96px;
 }
 .portfolio-buttons .item button {
   margin-right: 8px;
-  padding: 6px 22px;
+  padding: 12px 24px;
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   border: 0;
