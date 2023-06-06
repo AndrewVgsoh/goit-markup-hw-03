@@ -386,9 +386,6 @@ margin-right: 0;
 width: 100%;
 font-family: Roboto;
 }
-.box-example h2 {
-  margin-bottom: 4px;
-}
 .portfolio-buttons {
   display: flex;
   justify-content: center;
