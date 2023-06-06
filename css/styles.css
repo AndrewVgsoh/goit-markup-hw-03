@@ -397,6 +397,7 @@ font-family: Roboto;
 .portfolio-example {
   display: flex;
   flex-wrap: wrap;
+  
 }
 .portfolio-example .item {
   flex-basis: 370px;
