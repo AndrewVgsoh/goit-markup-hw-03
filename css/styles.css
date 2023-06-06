@@ -332,6 +332,11 @@ padding-top: 96px;
   border: 0;
   cursor: pointer;
 }
+.portfolio-buttons {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px
+}
 .portfolio-buttons .item button:hover,
 .portfolio-buttons .item button:focus {
   background-color: var(--accent-color);
@@ -397,7 +402,7 @@ font-family: Roboto;
 .portfolio-example {
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 .portfolio-example .item {
   flex-basis: 370px;
