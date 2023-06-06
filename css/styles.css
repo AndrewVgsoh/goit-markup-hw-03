@@ -8,6 +8,7 @@
   --tertiary-bg-color: #2f303a;
   --logo-color: #000000;
   --second-logo-color: #2196f3;
+  --border-color: #e7e9fc;
 }
 html {
   box-sizing: border-box;
@@ -345,6 +346,7 @@ padding-top: 96px;
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
   border-radius: 4px;
+  border: 1px solid transparent;
 }
 .portfolio-buttons .item button {
   margin-right: 8px;
@@ -353,6 +355,7 @@ padding-top: 96px;
   background-color: var(--secondary-bg-color);
   border: 0;
   border-radius: 4px;
+  border: 1px solid var(--border-color);
 }
 
 .portfolio-buttons .item:first-child button {
