@@ -5,7 +5,7 @@
   --white: #ffffff;
   --light: #F4F4FD;
   --dark: #2E2F42;
-  --border-color: #e7e9fc;
+  --border-color: #E7E9FC;
   --success: #31D0AA;
 }
 html {
@@ -40,7 +40,7 @@ p {
 header {
   background-color: var(--white);
   display: flex;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid var(--border-color);
   height: 72px;
 }
 .page-header{
@@ -339,8 +339,8 @@ padding-top: 96px;
 .example-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  line-height: 24px;
+  letter-spacing: 0.04em;
   border: 0;
   cursor: pointer;
 }
@@ -361,9 +361,8 @@ padding-top: 96px;
   border: 1px solid transparent;
 }
 .portfolio-buttons .item button {
-  margin-right: 8px;
   padding: 12px 24px;
-  color: var(--title-text-color);
+  color: var(--primary-brand);
   background-color: var(--light);
   border: 0;
   border-radius: 4px;
