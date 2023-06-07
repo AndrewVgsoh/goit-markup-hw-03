@@ -1,14 +1,12 @@
 :root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #4d5ae5;
-  --second--accent-color: #188ce8;
-  --primary-bg-color: #ffffff;
-  --secondary-bg-color: #f5f4fa;
-  --tertiary-bg-color: #2f303a;
-  --logo-color: #000000;
-  --second-logo-color: #2196f3;
+  --text: #434455;
+  --primary-brand: #4D5AE5;
+  --pressed-state: #404BBF;
+  --white: #ffffff;
+  --light: #F4F4FD;
+  --dark: #2E2F42;
   --border-color: #e7e9fc;
+  --success: #31D0AA;
 }
 html {
   box-sizing: border-box;
@@ -23,6 +21,7 @@ img {
 }
 body {
   color: var(--title-text-color);
+  font-family: Roboto;
 }
 ul {
   list-style: none;
@@ -36,7 +35,7 @@ p {
   margin: 0;
 }
 header {
-  background-color: var(--primary-bg-color);
+  background-color: var(--white);
   display: flex;
   border-bottom: 1px solid #ECECEC;
   height: 72px;
@@ -65,17 +64,17 @@ header {
   align-items: center;
 }
 .site-logo {
-  color: var(--logo-color);
-  font-family: Raleway, sans-serif;
+  color: var(--dark);
+  font-family: Raleway;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
   text-decoration: none;
   margin-right: 76px;
 }
 .logo-part {
-  color: var(--second-logo-color);
+  color: var(--primary-brand);
 }
 .site-nav {
   color: var(--title-text-color);
@@ -89,7 +88,7 @@ header {
 }
 .site-nav:hover,
 .site-nav:focus {
-  color: var(--accent-color);
+  color: var(--pressed-state);
 }
 .ul-nav {
   display: flex;
@@ -98,9 +97,7 @@ header {
   margin-left: 0;
   gap: 40px;
 }
-.ul-nav li {
-  margin-right: 50px;
-}
+
 .ul-nav li:last-child {
   margin-right: 0;
 }
@@ -112,14 +109,11 @@ header {
   margin-left: auto;
   gap: 40px;
 }
-.ul-cont li {
-  margin-right: 40px;
-}
 .ul-cont li:last-child {
   margin-right: 0;
 }
 .contacts {
-  color: var(--primary-text-color);
+  color: var(--text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -128,14 +122,18 @@ header {
 }
 .contacts:hover,
 .contacts:focus {
-  color: var(--accent-color);
+  color: var(--pressed-state);
+}
+address {
+  display: flex;
+  font-style: normal;
 }
 main {
   text-align: center;
   
 }
 .hero {
-  background-color: var(--tertiary-bg-color);
+  background-color: var(--dark);
   text-align: center;
   padding: 188px 0
 }
@@ -146,7 +144,7 @@ main {
   margin-right: auto;
 }
 .hero-title {
-  color: var(--primary-bg-color);
+  color: var(--white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -156,9 +154,9 @@ main {
 
 }
 .button {
-  background-color: var(--accent-color);
+  background-color: var(--pressed-state);
   cursor: pointer;
-  color: var(--primary-bg-color);
+  color: var(--white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -174,7 +172,7 @@ main {
 }
 .button:hover,
 .button:focus {
-  background-color: var(--second--accent-color);
+  background-color: var(--pressed-state);
 }
 
 .features {
@@ -215,7 +213,7 @@ width: calc((100% - 72px) / 4);
 }
   
 .features-text {
-  color: var(--primary-text-color);
+  color: var(--text);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -249,7 +247,7 @@ width: calc((100% - 72px) / 4);
   margin-right: 0;
 }
 .team {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--light);
   padding: 120px 0; 
 }
 .team-title {
@@ -295,7 +293,7 @@ width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
 .team-post {
-  color: var(--primary-text-color);
+  color: var(--text);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -312,11 +310,7 @@ footer .site-logo {
 }
 
 .logo-white {
-  color: var(--primary-bg-color);
-}
-address {
-  display: flex;
-  
+  color: var(--white);
 }
 .container-address {
   margin-top: 28px;
@@ -344,16 +338,16 @@ padding-top: 96px;
 }
 .portfolio-buttons .item button:hover,
 .portfolio-buttons .item button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
+  background-color: var(----pressed-state);
+  color: var(--white);
 }
 .portfolio-buttons .item button {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--light);
 }
 .portfolio-buttons .item button:hover,
 .portfolio-buttons .item button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
+  background-color: var(--pressed-state);
+  color: var(--white);
   border-radius: 4px;
   border: 1px solid transparent;
 }
@@ -361,7 +355,7 @@ padding-top: 96px;
   margin-right: 8px;
   padding: 12px 24px;
   color: var(--title-text-color);
-  background-color: var(--secondary-bg-color);
+  background-color: var(--light);
   border: 0;
   border-radius: 4px;
   border: 1px solid var(--border-color);
@@ -378,7 +372,7 @@ margin-right: 0;
   margin-bottom: 8px
 }
 .example-text {
-  color: var(--primary-text-color);
+  color: var(--text);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
