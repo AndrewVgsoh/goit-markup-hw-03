@@ -159,7 +159,7 @@ main {
 
 }
 .button {
-  background-color: var(--pressed-state);
+  background-color: #4D5AE5;
   cursor: pointer;
   color: var(--white);
   font-weight: 500;
