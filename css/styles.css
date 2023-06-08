@@ -18,6 +18,7 @@ html {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 body {
   color: var(--title-text-color);
@@ -372,8 +373,8 @@ padding-top: 96px;
 .example-text {
   color: var(--text);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.02em;
 }
 .box-example {
