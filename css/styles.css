@@ -103,9 +103,7 @@ header {
   gap: 40px;
 }
 
-.ul-nav li:last-child {
-  margin-right: 0;
-}
+
 
 .ul-cont {
   display: flex;
@@ -114,9 +112,7 @@ header {
   margin-left: auto;
   gap: 40px;
 }
-.ul-cont li:last-child {
-  margin-right: 0;
-}
+
 .contacts {
   color: var(--text);
   font-weight: 400;
@@ -213,9 +209,7 @@ main {
 .features .feat-ul {
 width: calc((100% - 72px) / 4);
 }
-.features .feat-ul:last-child {
-  margin-right: 0;
-}
+
   
 .features-text {
   color: var(--text);
@@ -300,8 +294,8 @@ footer {
 footer .site-logo {
   margin-bottom: 16px;
   display: inline-block;
+  margin-right: 0;
 }
-
 .logo-white {
   color: var(--white);
 }
